@@ -1,0 +1,459 @@
+﻿
+/*--------------------------------------------------*/
+/*----------- Style for MasterPageMain -------------*/
+/*--------------------------------------------------*/
+body {
+    margin: 0;
+    padding-top: 110px;
+}
+
+.logo {
+    height: 100px;
+    padding: 12px;
+}
+
+.navbar-nav li a {
+    padding: 38px 12px;
+    height: 100px;
+}
+
+#navLogin button {
+    padding: 38px 12px;
+    border: none;
+    background-color: transparent;
+    color: #777777;
+}
+
+#searchBar {
+    display: inline-block;
+    padding: 34px 12px;
+    margin-right: 12px;
+}
+
+.searchBox {
+    height: 28px;
+    width: 240px;
+}
+
+.searchButton {
+    height: 28px;
+}
+
+#footer {
+    margin-top: 12px;
+    height: 56px;
+    width: 100%;
+    text-align: center;
+    background: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 16px;
+}
+
+/*--------------------------------------------------*/
+/*--------------- Style for Home Page --------------*/
+/*--------------------------------------------------*/
+
+/*-- Style for section area in Home page --*/
+/*
+.affix {
+    top: 96px;
+    width: 100%;
+}
+
+.affix + .row {
+    padding-top: 140px;
+}
+*/
+
+#banners {
+    margin-bottom: 18px;
+}
+
+.section-title {
+    padding: 8px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #31708f;
+    border-bottom: solid;
+    border-bottom-color: #bce8f1;
+    border-bottom-width: 1px;
+    background-color: #d9edf7;
+}
+
+.section {
+    margin-bottom: 18px;
+}
+
+.section-item {
+    text-align: center;
+    padding: 16px;
+    height: 300px;
+}
+
+.section-item img {
+    width: 100%;
+}
+
+.item-infor {
+    margin-bottom: 18px;
+}
+
+.item-function-bar {
+    position: relative;
+    height: 32px;
+}
+
+.price-tag {
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.add-to-cart {
+    position: absolute;
+    left: 100px;
+    width: 60px;
+    height: 32px;
+}
+
+/*-- Style for side bar --*/
+.affixed-sidebar {
+    width: 255px;
+}
+
+/*-- Style for side shopping cart --*/
+.shopping-cart-head {
+    height: 200%;
+    background-color: #428bca;
+    text-align: center;
+    border: solid 1px #e7e7e7;
+}
+
+.shopping-cart-head a {
+    display: block;
+    padding: 16px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.shopping-cart-head a:hover {
+    background-color: #357ebd;
+    text-decoration: none;
+}
+
+.panel-heading a {
+    color: #31708f
+}
+
+.panel-heading a:hover {
+    text-decoration: none;
+    color: #428bca;
+}
+
+.qty-in-cart {
+    background-color: #ffffff;
+    color: #428bca;
+    font-size: 18px;
+}
+
+.shopping-item {
+    padding: 6px 0;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+}
+
+.shopping-item-thumbnail {
+    display: inline-block;
+    width: 39%;
+    float: left;
+}
+
+.shopping-item-detail {
+    display: inline-block;
+    width: 59%;
+    text-align: left;
+    padding-left: 4px;
+    font-size: 12px;
+}
+
+.shopping-item-detail div {
+    margin-bottom: 4px;
+}
+
+.shopping-item-detail button {
+    border: none;
+    background-color: transparent;
+}
+
+.change-qty {
+    padding: 0;
+    width: 20px;
+}
+
+.item-qty {
+    width: 26px;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.delete-item {
+    float: right;
+}
+
+.price-calc {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 32px;
+}
+
+.side-shopping-cart-action {
+    text-align: right;
+    padding-top: 16px;
+}
+
+/*-- Style for Cap of the Day --*/
+.sidebar-panel {
+    margin-top: 18px;
+    text-align: center;
+}
+.sidebar-panel .section-title {
+    text-align: center;
+    margin: 0;
+}
+
+/*--------------------------------------------------*/
+/*----------- Style for Registration Page ----------*/
+/*--------------------------------------------------*/
+.registration-head {
+    padding: 32px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.validation-alert {
+    color: red;
+    padding: 6px 12px;
+}
+
+
+/*--------------------------------------------------*/
+/*----------- Style for Login Page ----------*/
+/*--------------------------------------------------*/
+.login-panel {
+    padding: 90px 0;
+}
+
+.register-link {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------*/
+/*----------- Style for Admin Page ----------*/
+/*--------------------------------------------------*/
+.function-area {
+    margin: 18px 0;
+}
+
+.function-label {
+    padding-top: 6px;
+}
+
+.function-button {
+    margin-top: 5px;
+}
+
+.side-menu {
+    position: fixed;
+    width: 240px;
+}
+
+/*--------------------------------------------------*/
+/*----------- Style for AddCap Page ----------*/
+/*--------------------------------------------------*/
+.img-upload {
+    padding: 6px 0;
+}
+
+.div-input {
+    padding: 0 12px;
+}
+
+.price-input {
+    width: 72px;
+    display: inline;
+}
+
+.button-group {
+    text-align: left;
+    padding: 0px 12px;
+}
+
+.cap-thumbnail {
+    width: 75%;
+    border: solid;
+    border-width: 1px;
+    border-color: #e7e7e7;
+}
+
+.add-title {
+    padding: 8px 8px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.description-input {
+    display: inline;
+    width: 90%;
+}
+
+/*--------------------------------------------------*/
+/*--------------- Style for Caps Page --------------*/
+/*--------------------------------------------------*/
+
+.cap-item {
+    text-align: center;
+    margin: 16px 32px 16px 0px;
+    width: 180px;
+    height: 268px;
+    position: relative;
+}
+
+.cap-item img {
+    width: 100%;
+}
+
+.cap-function-bar {
+    position: absolute;
+    bottom: 8px;
+    height: 32px;
+}
+
+.asp-button {
+    position: absolute;
+    left: 100px;
+    width: 66px;
+    height: 32px;
+    background-image: none;
+    -webkit-appearance: button;
+    padding: 3px 6px;
+    color: ButtonText;
+    background-color: ButtonFace;
+    text-align: center;
+    border-width: 2px;
+    border-style: outset;
+    border-color: ButtonFace;
+    border-image: initial;
+    text-shadow: none;
+    display: inline-block;
+}
+
+.paging {
+    text-align: center;
+}
+
+/*----------------------------------------------------------*/
+/*--------------- Style for ShoppingCart Page --------------*/
+/*----------------------------------------------------------*/
+
+.shopping-cart-placeholder {
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.shopping-cart-remove {
+    border: none;
+    background-color: transparent;
+}
+
+.item-field {
+    padding: 18px;
+}
+
+.calc-area {
+    text-align: right;
+    padding: 24px 0;
+}
+
+.grand-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.operation-area {
+    text-align: right;
+}
+
+.calc-line {
+    padding: 8px 0;
+}
+
+.empty-cart {
+    line-height: 160px;
+}
+
+/*----------------------------------------------------------*/
+/*--------------- Style for Profile Page -------------------*/
+/*----------------------------------------------------------*/
+.profile-infor {
+    padding: 16px 0;
+}
+
+.profile-infor span {
+    line-height: 200%;
+    font-weight: bold;
+}
+
+.order-list, .customer-list {
+    padding: 16px 0;
+    min-height: 400px;
+}
+
+/*----------------------------------------------------------*/
+/*--------------- Style for Contact Page -------------------*/
+/*----------------------------------------------------------*/
+.contact-label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.contact-row {
+    padding: 8px 0;
+}
+
+.contact-infor {
+    min-height: 340px;
+}
+
+/*----------------------------------------------------------*/
+/*--------------- Style for CapInfo Page -------------------*/
+/*----------------------------------------------------------*/
+.cap-info {
+    padding: 32px 0;
+}
+
+.cap-info div {
+    padding: 10px 0;
+}
+
+.cap-info-label {
+    font-weight: bold;
+}
+
+#btnAdd {
+    width: 60px;
+    height: 32px;
+}

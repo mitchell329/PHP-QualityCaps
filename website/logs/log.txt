@@ -1,0 +1,4 @@
+log testlogin success2016-11-11 00:27:46 Registration success. Username: test2
+2016-11-11 00:30:56 Registration success. Username: LogTest3
+2016-11-13 19:46:54 Registration success. Username: admin
+2016-11-18 13:34:46 Registration success. Username: xiaosong
